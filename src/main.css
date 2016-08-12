@@ -1,0 +1,42 @@
+$radius: 3px;
+
+$time: 0.25s;
+
+$title-color: #fff;
+$text-color: #eee;
+
+$dark: #323841;
+$dark-l: #585d65;
+$dark-w: #7f8389;
+
+$grey: #6a7a84;
+$grey-l: #84929a;
+$grey-w: #a0abb1;
+
+$red: #ff0000;
+$red-l: #fc3131;
+$red-w: #fa6262;
+
+$green: #66BB6A;
+$green-l: #81c685;
+$green-w: #9ed2a1;
+
+$blue: #2d91ee;
+$blue-l: #54a5ef;
+$blue-w: #7cb9f1;
+
+$darkblue: #21364a;
+$darkblue-l: #1f5e91;
+$darkblue-w: #827ca1;
+
+$brown: #804000;
+$brown-l: #966431;
+$brown-w: #ae8862;
+
+$yellow: #ffeb3b;
+$yellow-l: #fced60;
+$yellow-w: #faef85;
+
+$orange: #dda611;
+$orange-l: #e0b53e;
+$orange-w: #e5c56c;
