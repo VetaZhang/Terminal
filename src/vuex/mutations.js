@@ -1,4 +1,4 @@
-import fn from '../../../lib/fn'
+import fn from '../lib/fn'
 
 export default {
   HANDLE_DATA (state, data) {

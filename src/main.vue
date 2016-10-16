@@ -36,47 +36,38 @@ body {
 </template>
 
 <script>
-  // import store from './store'
-  // import store from './lib/store'
-  import Apps from './apps'
+  import store from './vuex/store';
+  import Apps from './apps';
 
   module.exports = {
     el: '#app',
+    store,
     props: {
       //
     },
-    // store,
     data () {
       return {
-        view: 'eva'
+        view: 'core'
       };
     },
-    ready () {
-      let html = document.getElementsByTagName('html')[0]
+    mounted () {
+      let html = document.getElementsByTagName('html')[0];
       window.onresize = (e) => {
-        console.log('resize')
-        let height = document.body.clientHeight
-        let width = document.body.clientWidth
+        let height = document.body.clientHeight;
+        let width = document.body.clientWidth;
         if (width / 32 * 18 > height) {
-          html.style.fontSize = height / 18 + 'px'
+          html.style.fontSize = height / 18 + 'px';
         } else {
-          html.style.fontSize = width / 32 + 'px'
+          html.style.fontSize = width / 32 + 'px';
         }
       }
     },
-    methods: {
-      handleResize () {
-
-        // store.dispatch('INCREMENT')
-      }
+    beforeDestroy () {
+      window.onresize = null;
     },
-    // vuex: {
-    //   getters: {
-    //     counterValue: function (state) {
-    //       return state.count
-    //     }
-    //   }
-    // },
+    methods: {
+      //
+    },
     components: Apps
   }
 </script>

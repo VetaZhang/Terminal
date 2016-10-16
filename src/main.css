@@ -2,8 +2,13 @@ $radius: 3px;
 
 $time: 0.25s;
 
-$title-color: #fff;
-$text-color: #eee;
+$bg: #333;
+$bg-l: #555;
+$bg-w: #777;
+
+$color: #fff;
+$color-l: #eee;
+$color-w: #aaa;
 
 $dark: #323841;
 $dark-l: #585d65;
